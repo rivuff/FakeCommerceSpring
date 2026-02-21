@@ -6,22 +6,24 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-public class CreateProductRequestDto {
+@SuperBuilder
+public class GetProductResponseDto {
     
+    private Long id;
+
     private String title;
 
     private String description;
 
-    private String image;
-
     private BigDecimal price;
 
-    private Long categoryId;
+    private String image;
 
     private String rating;
+
 }

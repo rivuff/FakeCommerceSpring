@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.FakeCommerce.dtos.CreateProductRequestDto;
+import com.example.FakeCommerce.dtos.GetProductResponseDto;
+import com.example.FakeCommerce.dtos.GetProductWithDetailsResponseDto;
 import com.example.FakeCommerce.schema.Product;
 import com.example.FakeCommerce.services.ProductService;
 
@@ -25,9 +27,20 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping
-    public List<Product> getAllProducts() {
+    public List<GetProductResponseDto> getAllProducts() {
         return productService.getAllProducts();
     }
+
+    @GetMapping("/{id}")
+    public GetProductResponseDto getProductById(@PathVariable Long id) {
+        return productService.getProductById(id);
+    }
+
+    @GetMapping("/{id}/details")
+    public GetProductWithDetailsResponseDto getProductWithDetailsById(@PathVariable Long id) {
+        return productService.getProductWithDetailsById(id);
+    }
+    
 
     @PostMapping
     public Product createProduct(@RequestBody CreateProductRequestDto requestDto) {
