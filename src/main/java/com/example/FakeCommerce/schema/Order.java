@@ -22,13 +22,4 @@ public class Order extends BaseEntity {
 
     private OrderStatus status;
 
-
-    @ManyToMany
-    @JoinTable(
-        name = "order_products",
-        joinColumns = @JoinColumn(name = "order_id"), // the FK belonging to the same schema  -- Order
-        inverseJoinColumns = @JoinColumn(name = "product_id") // the FK belonging to the other schema -- Product
-    )
-    private List<Product> products;
-
 }
