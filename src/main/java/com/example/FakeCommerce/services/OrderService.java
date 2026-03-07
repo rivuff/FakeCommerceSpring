@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.FakeCommerce.adapters.OrderAdapter;
 import com.example.FakeCommerce.dtos.GetOrderResponseDto;
+import com.example.FakeCommerce.exceptions.ResourceNotFoundException;
 import com.example.FakeCommerce.repositories.OrderRespository;
 import com.example.FakeCommerce.repositories.OrderproductsRepository;
 import com.example.FakeCommerce.repositories.ProductRepository;
@@ -28,5 +29,19 @@ public class OrderService {
         List<Order> orders = orderRespository.findAll();
         return orderAdapter.mapToGetOrderResponseDtoList(orders);
 
+    }
+
+    public GetOrderResponseDto getOrderById(Long id) {
+        Order order = orderRespository.findById(id)
+            .orElseThrow(() -> new ResourceNotFoundException("Order not found with id: " + id));
+
+        return orderAdapter.mapToGetOrderResponseDto(order);
+    }
+
+    public void deleteOrder(Long id) {
+        Order order = orderRespository.findById(id)
+            .orElseThrow(() -> new ResourceNotFoundException("Order not found with id: " + id));
+
+        orderRespository.delete(order);
     }
 }
