@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.example.FakeCommerce.dtos.CreateProductRequestDto;
 import com.example.FakeCommerce.dtos.GetProductResponseDto;
 import com.example.FakeCommerce.dtos.GetProductWithDetailsResponseDto;
+import com.example.FakeCommerce.exceptions.ResourceNotFoundException;
 import com.example.FakeCommerce.repositories.ProductRepository;
 import com.example.FakeCommerce.schema.Category;
 import com.example.FakeCommerce.schema.Product;
@@ -46,11 +47,15 @@ public class ProductService {
                 .image(product.getImage())
                 .rating(product.getRating())
                 .build())
-            .orElseThrow(() -> new RuntimeException("Product not found"));
+            .orElseThrow(() -> new ResourceNotFoundException("Product with id " + id + " not found"));
     }
 
     public GetProductWithDetailsResponseDto getProductWithDetailsById(Long id) {
-        Product product = productRepository.findProductWithDetailsById(id).get(0);
+        List<Product> results = productRepository.findProductWithDetailsById(id);
+        if (results.isEmpty()) {
+            throw new ResourceNotFoundException("Product with id " + id + " not found");
+        }
+        Product product = results.get(0);
 
         return GetProductWithDetailsResponseDto.builder()
                     .id(product.getId())
@@ -61,7 +66,6 @@ public class ProductService {
                     .image(product.getImage())
                     .rating(product.getRating())
                     .build();
-        
     }
 
     public Product createProduct(CreateProductRequestDto requestDto) {
@@ -85,7 +89,9 @@ public class ProductService {
     }
 
     public void deleteProduct(Long id) {
-        productRepository.deleteById(id);
+        Product product = productRepository.findById(id)
+            .orElseThrow(() -> new ResourceNotFoundException("Product with id " + id + " not found"));
+        productRepository.delete(product);
     }
 
     public List<Product> getProductsByCategory(String category) {
