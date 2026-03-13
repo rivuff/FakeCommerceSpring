@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.FakeCommerce.dtos.CreateCategoryRequestDto;
+import com.example.FakeCommerce.schema.BaseAPIResponse;
 import com.example.FakeCommerce.schema.Category;
 import com.example.FakeCommerce.services.CategoryService;
 import com.example.FakeCommerce.utils.ApiResponse;
@@ -40,7 +41,9 @@ public class CategoryController {
         List<Category> categories = categoryService.getAllCategories();
         return ResponseEntity
                 .ok(ApiResponse.success(categories, "Categories fetched successfully"));
+    
     }
+
 
     @GetMapping("/{id}")
     public ResponseEntity<ApiResponse<Category>> getCategoryById(@PathVariable Long id) {
