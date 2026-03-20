@@ -3,16 +3,20 @@ package com.example.FakeCommerce.controllers;
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.FakeCommerce.dtos.CreateOrderRequestDTO;
 import com.example.FakeCommerce.dtos.GetOrderResponseDto;
+import com.example.FakeCommerce.dtos.UpdateOrderRequestDto;
 import com.example.FakeCommerce.schema.Order;
 import com.example.FakeCommerce.services.OrderService;
 import com.example.FakeCommerce.utils.ApiResponse;
@@ -34,8 +38,11 @@ public class OrderController {
     }
 
     @PostMapping
-    public Order createOrder() {
-        throw new UnsupportedOperationException("Not implemented");
+    public ResponseEntity<ApiResponse<GetOrderResponseDto>> createOrder(@RequestBody CreateOrderRequestDTO createOrderRequestDTO) {
+        
+        GetOrderResponseDto orderResponseDto = orderService.createOrder(createOrderRequestDTO);
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.success(orderResponseDto, "Order Created successfylly"));
     }
 
     @DeleteMapping("/{id}")
@@ -63,8 +70,10 @@ public class OrderController {
     }
 
     @GetMapping("/{id}/summary")
-    public void getOrderSummary(@PathVariable Long id) {
-        throw new UnsupportedOperationException("Not implemented");
+    public ResponseEntity<ApiResponse<GetOrderResponseDto>> getOrderSummary(@PathVariable Long id,  @RequestBody UpdateOrderRequestDto updateOrderRequestDto) {
+        GetOrderResponseDto orderResponseDto = orderService.updateOrder(id, updateOrderRequestDto);
+
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(ApiResponse.success(orderResponseDto, "Order updated successfully"));
     }
 
 }

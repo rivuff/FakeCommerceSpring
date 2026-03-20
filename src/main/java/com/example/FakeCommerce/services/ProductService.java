@@ -3,6 +3,7 @@ package com.example.FakeCommerce.services;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.jca.endpoint.GenericMessageEndpointFactory.InternalResourceException;
 import org.springframework.stereotype.Service;
 
 import com.example.FakeCommerce.dtos.CreateProductRequestDto;
@@ -68,11 +69,13 @@ public class ProductService {
                     .build();
     }
 
-    public Product createProduct(CreateProductRequestDto requestDto) {
+    public Product createProduct(CreateProductRequestDto requestDto)  {
 
         Category category = categoryService.getCategoryById(
             requestDto.getCategoryId()
         );
+
+       System.out.println("Category"+ category.getName());
 
         Product newProduct = Product.builder()
             .title(requestDto.getTitle())
@@ -84,7 +87,6 @@ public class ProductService {
             .build();
 
         return productRepository.save(newProduct); // this will save the product to the database
-
 
     }
 

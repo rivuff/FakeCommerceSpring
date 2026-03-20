@@ -54,7 +54,7 @@ public class ProductController {
     public ResponseEntity<ApiResponse<Product>> createProduct(@RequestBody CreateProductRequestDto requestDto) {
         Product product = productService.createProduct(requestDto);
         return ResponseEntity
-                .status(HttpStatus.CREATED)
+                .status(HttpStatus.CREATED) 
                 .body(ApiResponse.success(product, "Product created successfully"));
     }
 

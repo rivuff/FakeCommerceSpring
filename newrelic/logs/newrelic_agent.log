@@ -1,0 +1,379 @@
+2026-03-19T02:14:14,765+0530 [11308 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T02:14:14,765+0530 [11308 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T02:14:14,765+0530 [11308 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T02:14:14,765+0530 [11308 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T02:14:14,765+0530 [11308 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T02:14:14,766+0530 [11308 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T02:14:15,430+0530 [11308 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T02:14:16,589+0530 [11308 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T02:14:16,849+0530 [11308 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T02:14:16,963+0530 [11308 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T02:14:16,966+0530 [11308 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T02:14:16,966+0530 [11308 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5a42bbf4
+2026-03-19T02:14:16,967+0530 [11308 1] com.newrelic INFO: Premain startup complete in 3,250ms
+2026-03-19T02:14:16,968+0530 [11308 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T02:14:20,259+0530 [11308 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T02:14:21,124+0530 [11308 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T02:14:21,124+0530 [11308 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T02:14:23,214+0530 [11308 29] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2026-03-19T02:14:23,216+0530 [11308 29] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2026-03-19T10:30:30,467+0530 [24260 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T10:30:30,468+0530 [24260 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T10:30:30,468+0530 [24260 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T10:30:30,468+0530 [24260 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T10:30:30,468+0530 [24260 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T10:30:30,468+0530 [24260 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T10:30:31,054+0530 [24260 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T10:30:32,008+0530 [24260 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T10:30:32,226+0530 [24260 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T10:30:32,335+0530 [24260 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T10:30:32,339+0530 [24260 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T10:30:32,339+0530 [24260 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5a42bbf4
+2026-03-19T10:30:32,339+0530 [24260 1] com.newrelic INFO: Premain startup complete in 2,742ms
+2026-03-19T10:30:32,340+0530 [24260 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T10:30:35,503+0530 [24260 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T10:30:36,319+0530 [24260 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T10:30:36,319+0530 [24260 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T10:30:37,247+0530 [24260 29] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2026-03-19T10:30:37,250+0530 [24260 29] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2026-03-19T10:37:11,924+0530 [23900 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T10:37:11,924+0530 [23900 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T10:37:11,924+0530 [23900 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T10:37:11,924+0530 [23900 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T10:37:11,924+0530 [23900 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T10:37:11,924+0530 [23900 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T10:37:12,456+0530 [23900 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T10:37:13,523+0530 [23900 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T10:37:13,898+0530 [23900 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T10:37:14,013+0530 [23900 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T10:37:14,016+0530 [23900 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T10:37:14,016+0530 [23900 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5a42bbf4
+2026-03-19T10:37:14,017+0530 [23900 1] com.newrelic INFO: Premain startup complete in 3,091ms
+2026-03-19T10:37:14,018+0530 [23900 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T10:37:15,218+0530 [23900 29] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2026-03-19T10:37:15,219+0530 [23900 29] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2026-03-19T10:37:46,787+0530 [28820 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T10:37:46,788+0530 [28820 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T10:37:46,788+0530 [28820 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T10:37:46,788+0530 [28820 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T10:37:46,788+0530 [28820 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T10:37:46,788+0530 [28820 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T10:37:47,222+0530 [28820 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T10:37:47,940+0530 [28820 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T10:37:48,133+0530 [28820 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T10:37:48,242+0530 [28820 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T10:37:48,246+0530 [28820 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T10:37:48,246+0530 [28820 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5a42bbf4
+2026-03-19T10:37:48,246+0530 [28820 1] com.newrelic INFO: Premain startup complete in 2,218ms
+2026-03-19T10:37:48,248+0530 [28820 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T10:37:51,297+0530 [28820 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T10:37:52,158+0530 [28820 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T10:37:52,158+0530 [28820 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T10:37:57,416+0530 [28820 29] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2026-03-19T10:37:57,419+0530 [28820 29] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2026-03-19T10:40:54,879+0530 [22692 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T10:40:54,879+0530 [22692 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T10:40:54,879+0530 [22692 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T10:40:54,879+0530 [22692 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T10:40:54,879+0530 [22692 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T10:40:54,879+0530 [22692 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T10:40:55,320+0530 [22692 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T10:40:56,252+0530 [22692 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T10:40:56,511+0530 [22692 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T10:40:56,647+0530 [22692 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T10:40:56,652+0530 [22692 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T10:40:56,652+0530 [22692 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@5a42bbf4
+2026-03-19T10:40:56,652+0530 [22692 1] com.newrelic INFO: Premain startup complete in 2,515ms
+2026-03-19T10:40:56,654+0530 [22692 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T10:40:59,774+0530 [22692 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T10:41:00,586+0530 [22692 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T10:41:00,587+0530 [22692 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T10:41:06,661+0530 [22692 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-19T10:41:06,662+0530 [22692 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T10:41:08,563+0530 [22692 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2026-03-19T10:41:09,991+0530 [22692 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2026-03-19T10:41:09,991+0530 [22692 57] com.newrelic INFO: Agent run id: BbSIQVCb6-WFAHel1FxcnnRpu4XcAAIBAAAnIQEAAFikAgRcXE2vAwAGOC4xMS4wAAVBbGV4YQAUU3ByaW5nIEZha2UgQ29tbWVyY2U
+2026-03-19T10:41:09,991+0530 [22692 57] com.newrelic INFO: Agent 22692@Alexa/Spring Fake Commerce connected to collector.newrelic.com:443
+2026-03-19T10:41:09,992+0530 [22692 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/7841236/applications/1549553071
+2026-03-19T10:41:09,993+0530 [22692 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T10:41:09,993+0530 [22692 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T10:41:09,993+0530 [22692 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T10:41:09,995+0530 [22692 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T10:41:09,995+0530 [22692 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T10:41:09,996+0530 [22692 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T10:41:11,891+0530 [22692 57] com.newrelic INFO: Real user monitoring is enabled for application Spring Fake Commerce. Auto instrumentation is enabled.
+2026-03-19T10:41:11,892+0530 [22692 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:05:29,633+0530 [27260 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T11:05:29,634+0530 [27260 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T11:05:29,634+0530 [27260 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T11:05:29,634+0530 [27260 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T11:05:29,634+0530 [27260 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T11:05:29,634+0530 [27260 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T11:05:30,185+0530 [27260 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T11:05:31,233+0530 [27260 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T11:05:31,451+0530 [27260 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T11:05:31,583+0530 [27260 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T11:05:31,588+0530 [27260 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T11:05:31,588+0530 [27260 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-19T11:05:31,588+0530 [27260 1] com.newrelic INFO: Premain startup complete in 2,990ms
+2026-03-19T11:05:31,590+0530 [27260 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T11:05:35,362+0530 [27260 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T11:05:36,379+0530 [27260 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T11:05:36,379+0530 [27260 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T11:05:46,602+0530 [27260 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-19T11:05:46,603+0530 [27260 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:05:47,919+0530 [27260 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2026-03-19T11:05:49,101+0530 [27260 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2026-03-19T11:05:49,101+0530 [27260 57] com.newrelic INFO: Agent run id: BVbXccyvRcFXAHel1FxcnnRpu4t8AAIBAAAnIQEAAGp8AgRcXE2vAwAGOC4xMS4wAAVBbGV4YQAUU3ByaW5nIEZha2UgQ29tbWVyY2U
+2026-03-19T11:05:49,101+0530 [27260 57] com.newrelic INFO: Agent 27260@Alexa/Spring Fake Commerce connected to collector.newrelic.com:443
+2026-03-19T11:05:49,102+0530 [27260 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/7841236/applications/1549553071
+2026-03-19T11:05:49,103+0530 [27260 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:05:49,103+0530 [27260 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:05:49,103+0530 [27260 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:05:49,106+0530 [27260 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:05:49,106+0530 [27260 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:05:49,106+0530 [27260 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:05:50,055+0530 [27260 57] com.newrelic INFO: Real user monitoring is enabled for application Spring Fake Commerce. Auto instrumentation is enabled.
+2026-03-19T11:05:50,055+0530 [27260 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:18:34,102+0530 [21628 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T11:18:34,102+0530 [21628 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T11:18:34,102+0530 [21628 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T11:18:34,102+0530 [21628 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T11:18:34,103+0530 [21628 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T11:18:34,103+0530 [21628 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T11:18:34,888+0530 [21628 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T11:18:36,383+0530 [21628 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T11:18:36,681+0530 [21628 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T11:18:36,808+0530 [21628 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T11:18:36,811+0530 [21628 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T11:18:36,811+0530 [21628 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-19T11:18:36,812+0530 [21628 1] com.newrelic INFO: Premain startup complete in 3,824ms
+2026-03-19T11:18:36,813+0530 [21628 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T11:18:40,652+0530 [21628 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T11:18:41,647+0530 [21628 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T11:18:41,647+0530 [21628 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T11:18:51,841+0530 [21628 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-19T11:18:51,841+0530 [21628 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:18:53,625+0530 [21628 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2026-03-19T11:18:55,849+0530 [21628 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2026-03-19T11:18:55,849+0530 [21628 57] com.newrelic INFO: Agent run id: BaFtSNCqHlErAHel1FxcnnRpu46IAAIBAAAnIQEAAFR8AgRcXE2vAwAGOC4xMS4wAAVBbGV4YQAUU3ByaW5nIEZha2UgQ29tbWVyY2U
+2026-03-19T11:18:55,849+0530 [21628 57] com.newrelic INFO: Agent 21628@Alexa/Spring Fake Commerce connected to collector.newrelic.com:443
+2026-03-19T11:18:55,850+0530 [21628 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/7841236/applications/1549553071
+2026-03-19T11:18:55,852+0530 [21628 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:18:55,852+0530 [21628 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:18:55,852+0530 [21628 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:18:55,854+0530 [21628 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:18:55,854+0530 [21628 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:18:55,854+0530 [21628 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:18:57,576+0530 [21628 57] com.newrelic INFO: Real user monitoring is enabled for application Spring Fake Commerce. Auto instrumentation is enabled.
+2026-03-19T11:18:57,576+0530 [21628 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:39:11,707+0530 [392 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T11:39:11,708+0530 [392 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T11:39:11,708+0530 [392 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T11:39:11,708+0530 [392 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T11:39:11,708+0530 [392 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T11:39:11,708+0530 [392 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T11:39:12,274+0530 [392 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T11:39:13,206+0530 [392 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T11:39:13,557+0530 [392 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T11:39:13,737+0530 [392 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T11:39:13,743+0530 [392 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T11:39:13,743+0530 [392 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-19T11:39:13,743+0530 [392 1] com.newrelic INFO: Premain startup complete in 3,165ms
+2026-03-19T11:39:13,746+0530 [392 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T11:39:18,073+0530 [392 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T11:39:19,013+0530 [392 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T11:39:19,013+0530 [392 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T11:39:24,722+0530 [392 29] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2026-03-19T11:39:24,724+0530 [392 29] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2026-03-19T11:42:44,361+0530 [19876 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-19T11:42:44,362+0530 [19876 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-19T11:42:44,362+0530 [19876 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-19T11:42:44,362+0530 [19876 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-19T11:42:44,362+0530 [19876 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-19T11:42:44,362+0530 [19876 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-19T11:42:45,123+0530 [19876 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-19T11:42:46,002+0530 [19876 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-19T11:42:46,233+0530 [19876 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-19T11:42:46,343+0530 [19876 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-19T11:42:46,346+0530 [19876 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-19T11:42:46,347+0530 [19876 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-19T11:42:46,347+0530 [19876 1] com.newrelic INFO: Premain startup complete in 2,813ms
+2026-03-19T11:42:46,349+0530 [19876 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-19T11:42:50,121+0530 [19876 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-19T11:42:51,178+0530 [19876 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-19T11:42:51,178+0530 [19876 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-19T11:43:01,367+0530 [19876 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-19T11:43:01,368+0530 [19876 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:43:03,087+0530 [19876 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2026-03-19T11:43:05,149+0530 [19876 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2026-03-19T11:43:05,149+0530 [19876 57] com.newrelic INFO: Agent run id: Bfau8YTnTxW4AHel1FxcnnRpu5RkAAIBAAAnIQEAAE2kAgRcXE2vAwAGOC4xMS4wAAVBbGV4YQAUU3ByaW5nIEZha2UgQ29tbWVyY2U
+2026-03-19T11:43:05,149+0530 [19876 57] com.newrelic INFO: Agent 19876@Alexa/Spring Fake Commerce connected to collector.newrelic.com:443
+2026-03-19T11:43:05,150+0530 [19876 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/7841236/applications/1549553071
+2026-03-19T11:43:05,151+0530 [19876 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:43:05,151+0530 [19876 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:43:05,151+0530 [19876 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:43:05,153+0530 [19876 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:43:05,153+0530 [19876 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:43:05,153+0530 [19876 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:43:05,764+0530 [19876 57] com.newrelic INFO: Real user monitoring is enabled for application Spring Fake Commerce. Auto instrumentation is enabled.
+2026-03-19T11:43:05,764+0530 [19876 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-19T11:50:37,386+0530 [19876 87] com.newrelic INFO: Re-reading New Relic configuration file
+2026-03-19T11:50:37,436+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:50:37,436+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:50:37,436+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:50:37,456+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:50:37,456+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:50:37,456+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:50:37,485+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:50:37,485+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:50:37,485+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:50:37,490+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:50:37,490+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:50:37,490+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:51:37,477+0530 [19876 87] com.newrelic INFO: Re-reading New Relic configuration file
+2026-03-19T11:51:37,490+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:51:37,490+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:51:37,491+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:51:37,495+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:51:37,495+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:51:37,495+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:51:37,500+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:51:37,501+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:51:37,501+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-19T11:51:37,505+0530 [19876 87] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-19T11:51:37,505+0530 [19876 87] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-19T11:51:37,505+0530 [19876 87] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-20T17:38:49,038+0530 [12324 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-20T17:38:49,039+0530 [12324 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-20T17:38:49,039+0530 [12324 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-20T17:38:49,039+0530 [12324 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-20T17:38:49,039+0530 [12324 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-20T17:38:49,039+0530 [12324 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-20T17:38:49,735+0530 [12324 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-20T17:38:51,118+0530 [12324 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-20T17:38:51,388+0530 [12324 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-20T17:38:51,515+0530 [12324 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-20T17:38:51,519+0530 [12324 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-20T17:38:51,519+0530 [12324 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-20T17:38:51,519+0530 [12324 1] com.newrelic INFO: Premain startup complete in 3,567ms
+2026-03-20T17:38:51,521+0530 [12324 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-20T17:38:55,736+0530 [12324 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-20T17:38:56,812+0530 [12324 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-20T17:38:56,812+0530 [12324 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-20T17:39:06,542+0530 [12324 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:39:06,543+0530 [12324 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:39:08,225+0530 [12324 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2026-03-20T17:39:09,491+0530 [12324 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2026-03-20T17:39:09,491+0530 [12324 57] com.newrelic INFO: Agent run id: BSRxEKe8OrovAHel1FxcnnRpvTlUAAIBAAAnIQEAADAkAgRcXE2vAwAGOC4xMS4wAAVBbGV4YQAUU3ByaW5nIEZha2UgQ29tbWVyY2U
+2026-03-20T17:39:09,492+0530 [12324 57] com.newrelic INFO: Agent 12324@Alexa/Spring Fake Commerce connected to collector.newrelic.com:443
+2026-03-20T17:39:09,492+0530 [12324 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/7841236/applications/1549553071
+2026-03-20T17:39:09,493+0530 [12324 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-20T17:39:09,493+0530 [12324 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-20T17:39:09,493+0530 [12324 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-20T17:39:09,495+0530 [12324 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-20T17:39:09,495+0530 [12324 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-20T17:39:09,495+0530 [12324 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-20T17:39:10,100+0530 [12324 57] com.newrelic INFO: Real user monitoring is enabled for application Spring Fake Commerce. Auto instrumentation is enabled.
+2026-03-20T17:39:10,101+0530 [12324 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:40:01,633+0530 [22092 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-20T17:40:01,634+0530 [22092 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-20T17:40:01,634+0530 [22092 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-20T17:40:01,634+0530 [22092 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-20T17:40:01,634+0530 [22092 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-20T17:40:01,634+0530 [22092 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-20T17:40:02,109+0530 [22092 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-20T17:40:03,146+0530 [22092 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-20T17:40:03,378+0530 [22092 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-20T17:40:03,493+0530 [22092 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-20T17:40:03,496+0530 [22092 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-20T17:40:03,496+0530 [22092 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-20T17:40:03,496+0530 [22092 1] com.newrelic INFO: Premain startup complete in 2,874ms
+2026-03-20T17:40:03,497+0530 [22092 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-20T17:40:06,675+0530 [22092 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-20T17:40:07,526+0530 [22092 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-20T17:40:07,526+0530 [22092 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-20T17:40:13,506+0530 [22092 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:40:13,506+0530 [22092 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:40:13,507+0530 [22092 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:40:28,532+0530 [22092 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:40:28,533+0530 [22092 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:40:28,764+0530 [22092 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:40:43,785+0530 [22092 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:40:43,787+0530 [22092 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:40:44,001+0530 [22092 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:41:14,044+0530 [22092 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:41:14,046+0530 [22092 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:41:14,278+0530 [22092 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:42:14,385+0530 [22092 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:42:14,394+0530 [22092 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:42:14,632+0530 [22092 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:44:19,344+0530 [7660 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-20T17:44:19,344+0530 [7660 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-20T17:44:19,344+0530 [7660 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-20T17:44:19,344+0530 [7660 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-20T17:44:19,345+0530 [7660 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-20T17:44:19,345+0530 [7660 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-20T17:44:19,865+0530 [7660 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-20T17:44:21,443+0530 [7660 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-20T17:44:21,720+0530 [7660 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-20T17:44:21,882+0530 [7660 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-20T17:44:21,894+0530 [7660 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-20T17:44:21,894+0530 [7660 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-20T17:44:21,895+0530 [7660 1] com.newrelic INFO: Premain startup complete in 3,470ms
+2026-03-20T17:44:21,896+0530 [7660 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-20T17:44:25,626+0530 [7660 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-20T17:44:26,661+0530 [7660 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-20T17:44:26,662+0530 [7660 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-20T17:44:31,909+0530 [7660 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:44:31,911+0530 [7660 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:44:31,912+0530 [7660 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:44:46,931+0530 [7660 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:44:46,932+0530 [7660 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:44:47,150+0530 [7660 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:45:02,168+0530 [7660 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:45:02,168+0530 [7660 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:45:02,384+0530 [7660 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:45:32,440+0530 [7660 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:45:32,440+0530 [7660 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:45:32,659+0530 [7660 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:46:32,765+0530 [7660 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:46:32,765+0530 [7660 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:46:32,981+0530 [7660 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:48:33,119+0530 [7660 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:48:33,121+0530 [7660 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:48:33,337+0530 [7660 57] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for Spring Fake Commerce: java.lang.IllegalArgumentException: can't parse argument number: LICENSE_KEY
+2026-03-20T17:50:52,368+0530 [18396 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\rivun\developer\FakeCommerceSpring\newrelic\logs\newrelic_agent.log
+2026-03-20T17:50:52,368+0530 [18396 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 21.0.9
+2026-03-20T17:50:52,368+0530 [18396 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 21.0.9+10-LTS
+2026-03-20T17:50:52,368+0530 [18396 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2026-03-20T17:50:52,368+0530 [18396 1] com.newrelic INFO: Agent Host: Alexa IP: 192.168.31.77
+2026-03-20T17:50:52,369+0530 [18396 1] com.newrelic INFO: New Relic Agent v8.11.0 is initializing...
+2026-03-20T17:50:52,842+0530 [18396 36] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2026-03-20T17:50:53,697+0530 [18396 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2026-03-20T17:50:53,970+0530 [18396 1] com.newrelic INFO: Setting audit_mode to false
+2026-03-20T17:50:54,113+0530 [18396 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\rivun\developer\FakeCommerceSpring\newrelic\.\newrelic.yml
+2026-03-20T17:50:54,117+0530 [18396 1] com.newrelic INFO: New Relic Agent v8.11.0 has started
+2026-03-20T17:50:54,117+0530 [18396 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@52d455b8
+2026-03-20T17:50:54,117+0530 [18396 1] com.newrelic INFO: Premain startup complete in 2,705ms
+2026-03-20T17:50:54,119+0530 [18396 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2026-03-20T17:50:57,446+0530 [18396 61] com.newrelic INFO: Server Info: Apache Tomcat/11.0.15
+2026-03-20T17:50:58,296+0530 [18396 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToFactoryCache], timer interval: 7,200,000ms created
+2026-03-20T17:50:58,296+0530 [18396 61] com.newrelic INFO: ExpiringValueCache instance with timer: [urlToDatabaseNameCache], timer interval: 7,200,000ms created
+2026-03-20T17:51:04,131+0530 [18396 57] com.newrelic INFO: Host name is Alexa, display host Alexa for application Spring Fake Commerce
+2026-03-20T17:51:04,132+0530 [18396 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T17:51:06,106+0530 [18396 57] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2026-03-20T17:51:08,334+0530 [18396 57] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2026-03-20T17:51:08,334+0530 [18396 57] com.newrelic INFO: Agent run id: BX919ofu9Ok9AHel1FxcnnRpvTwkAAIBAAAnIQEAAEfcAgRcXE2vAwAGOC4xMS4wAAVBbGV4YQAUU3ByaW5nIEZha2UgQ29tbWVyY2U
+2026-03-20T17:51:08,335+0530 [18396 57] com.newrelic INFO: Agent 18396@Alexa/Spring Fake Commerce connected to collector.newrelic.com:443
+2026-03-20T17:51:08,335+0530 [18396 57] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/7841236/applications/1549553071
+2026-03-20T17:51:08,336+0530 [18396 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-20T17:51:08,336+0530 [18396 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-20T17:51:08,336+0530 [18396 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-20T17:51:08,338+0530 [18396 57] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2026-03-20T17:51:08,338+0530 [18396 57] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2026-03-20T17:51:08,338+0530 [18396 57] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2026-03-20T17:51:09,553+0530 [18396 57] com.newrelic INFO: Real user monitoring is enabled for application Spring Fake Commerce. Auto instrumentation is enabled.
+2026-03-20T17:51:09,553+0530 [18396 57] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2026-03-20T18:53:58,335+0530 [18396 87] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
+2026-03-20T21:07:25,994+0530 [18396 87] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
