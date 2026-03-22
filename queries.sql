@@ -12,6 +12,7 @@ desc orders;
 desc order_products;
 desc reviews;
 
+select * from flyway_schema_history;
 select * from products;
 select * from categories;
 select * from orders;
@@ -56,7 +57,7 @@ ALTER TABLE products DROP INDEX idx_price_rating_category; -- delete an index
 
 CREATE INDEX idx_price_rating_category ON products (created_at, price, rating, category_id); -- create an index
 
-
+SHOW INDEX FROM products;
 
 
 
