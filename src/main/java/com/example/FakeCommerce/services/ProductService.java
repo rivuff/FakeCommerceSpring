@@ -1,6 +1,7 @@
 package com.example.FakeCommerce.services;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
@@ -12,6 +13,7 @@ import com.example.FakeCommerce.exceptions.ResourceNotFoundException;
 import com.example.FakeCommerce.repositories.ProductRepository;
 import com.example.FakeCommerce.schema.Category;
 import com.example.FakeCommerce.schema.Product;
+import com.example.FakeCommerce.services.cache.ProductRedisCache;
 
 import lombok.RequiredArgsConstructor;
 
@@ -21,6 +23,7 @@ public class ProductService {
     
     private final ProductRepository productRepository;
     private final CategoryService categoryService;
+    private final ProductRedisCache productRedisCache;
 
     public List<GetProductResponseDto> getAllProducts() {
         List<Product> products = productRepository.findAll();
@@ -38,7 +41,11 @@ public class ProductService {
     }
 
     public GetProductResponseDto getProductById(Long id) {
-        return productRepository.findById(id)
+        Optional<GetProductResponseDto> cachedSummary = productRedisCache.getSummary(id);
+        if (cachedSummary.isPresent()) {
+            return cachedSummary.get();
+        }
+        GetProductResponseDto response =  productRepository.findById(id)
             .map(product -> GetProductResponseDto.builder()
                 .id(product.getId())
                 .title(product.getTitle())
@@ -48,6 +55,8 @@ public class ProductService {
                 .rating(product.getRating())
                 .build())
             .orElseThrow(() -> new ResourceNotFoundException("Product with id " + id + " not found"));
+        productRedisCache.putSummary(id, response);
+        return response;
     }
 
     public GetProductWithDetailsResponseDto getProductWithDetailsById(Long id) {
