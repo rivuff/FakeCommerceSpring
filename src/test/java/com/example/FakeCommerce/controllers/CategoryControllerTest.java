@@ -39,5 +39,5 @@ public class CategoryControllerTest {
         .andExpect(MockMvcResultMatchers.jsonPath("$.data.name").value("Test Category"));
 
     }
-    
+    // TODO: Add tests for get all categories, get category by id, delete category.
 }
