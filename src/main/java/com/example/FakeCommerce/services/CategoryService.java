@@ -28,10 +28,12 @@ public class CategoryService {
     }
 
     public List<Category> getAllCategories() {
+        log.warn("getAllCategories method called");
         return categoryRepository.findAll();
     }
 
     public Category getCategoryById(Long id) {
+        log.info("getCategoryById method called with id {}", id);
         return categoryRepository.findById(id)
             .orElseThrow(() -> new ResourceNotFoundException("Category with id " + id + " not found"));
     }
